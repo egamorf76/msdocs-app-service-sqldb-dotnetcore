@@ -11,7 +11,7 @@ builder.Services.AddDbContext<MyDatabaseContext>(options =>
 builder.Services.AddStackExchangeRedisCache(options =>
 {
     options.Configuration = builder.Configuration["AZURE_REDIS_CONNECTIONSTRING"];
-    options.InstanceName = "SampleInstance";
+    options.InstanceName = "SampleInstanceMad";
 });
 
 // Add services to the container.
